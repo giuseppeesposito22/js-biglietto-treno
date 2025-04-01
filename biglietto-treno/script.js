@@ -58,12 +58,12 @@ if (datiCorretti) {
     console.log(
       "prezzo finale senza sconto applicato " + prezzoFinale.toFixed(2) + "€"
     );
-
-    // indico all'utente il prezzo da pagare
-    alert("costo del biglietto " + prezzoFinale.toFixed(2) + "€");
   }
 }
 // se i dati non sono corretti segnala l'errore
 else {
   alert("dati non corretti");
 }
+
+// indico all'utente il prezzo da pagare
+alert("costo del biglietto " + prezzoFinale.toFixed(2) + "€");
